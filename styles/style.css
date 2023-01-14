@@ -5,8 +5,10 @@
 
 body {
     font-family: 'Work sans';
-    width: 100%;
+    width: 1330px;
     height: 100%;
+    overflow-x: hidden;
+    border: 2px solid blueviolet;
 }
 
 .btn-primary {
@@ -30,6 +32,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 50px 130px;
+    border: 2px solid blueviolet;
 }
 
 .nav .list {
@@ -47,31 +50,102 @@ body {
 
 .main {
     width: 862px;
-    height: 225px;
-
+    height: 384px;
+    margin-left: 234px;
+    border: 2px solid blueviolet;
 }
 
 .main h3 {
     text-align: center;
-    width: 65%;
-    margin-left: 26%;
+    width: 100%;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
+    border: 2px solid blueviolet;
 }
 
 .main p {
     text-align: center;
-    width: 870px;
+    width: 860px;
     font-size: 16px;
     line-height: 26px;
-    margin-left: 80px;
     margin-bottom: 30px;
     color: #727272;
+    border: 2px solid blueviolet;
 }
 
 .main .btn-primary {
     width: 180px;
-    margin-left: 420px;
+    margin-left: 340px;
+    border: 2px solid blueviolet;
 }
+
+/* banner styles */
+
+.banner {
+    margin-top: 100px;
+    border-radius: 8px;
+    padding-left: 160px;
+    border: 2px solid blueviolet;
+}
+
+/* feature styles */
+
+.feature {
+    border: 2px solid blueviolet;
+}
+
+.feature .grid {
+    border: 2px solid blueviolet;
+    display: flex;
+    gap: 50px;
+    scale: calc(100% - 30%);
+}
+
+.feature .grid .grid-image {
+    border: 2px solid blueviolet;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature .grid .grid-text {
+    /* border: 2px solid blueviolet; */
+    margin-top: 160px;
+    gap: 20px;
+}
+
+.feature .grid .grid-text h3 span {
+    font-weight: 500;
+    color: #727272;
+}
+
+.feature .grid .grid-text h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 0px;
+    /* border: 2px solid blueviolet; */
+}
+
+.feature .grid .grid-text h2 {
+    /* border: 2px solid blueviolet; */
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+    margin: 0px 0px;
+}
+
+.feature .grid .grid-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    /* border: 2px solid blueviolet; */
+}
+
+/*  */
