@@ -410,6 +410,7 @@ footer p {
         flex-direction: column;
         width: 100%;
         gap: 20px;
+        text-align: center;
     }
 
     /* main */
