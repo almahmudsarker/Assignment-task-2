@@ -318,3 +318,33 @@ body {
 }
 
 /* sponsor styles */
+
+.sponsor {
+    border: 2px solid blueviolet;
+    /* scale: calc(100% - 20%); */
+}
+
+.sponsor .sponsor-text {
+    border: 2px solid blueviolet;
+    margin-top: 100px;
+}
+
+/* footer styles*/
+
+footer {
+    border: 2px solid blueviolet;
+    margin-top: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+    scale: calc(100% - 20%);
+}
+
+footer p {
+    /* font-weight: 400; */
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    padding: 23px 0px 0px 0px;
+}
