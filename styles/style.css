@@ -8,7 +8,6 @@ body {
     width: 1330px;
     height: 100%;
     overflow-x: hidden;
-    border: 2px solid blueviolet;
 }
 
 .btn-primary {
@@ -32,7 +31,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 50px 130px;
-    border: 2px solid blueviolet;
 }
 
 .nav .list {
@@ -52,7 +50,6 @@ body {
     width: 862px;
     height: 384px;
     margin-left: 234px;
-    border: 2px solid blueviolet;
 }
 
 .main h3 {
@@ -62,7 +59,6 @@ body {
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
-    border: 2px solid blueviolet;
 }
 
 .main p {
@@ -72,13 +68,11 @@ body {
     line-height: 26px;
     margin-bottom: 30px;
     color: #727272;
-    border: 2px solid blueviolet;
 }
 
 .main .btn-primary {
     width: 180px;
     margin-left: 340px;
-    border: 2px solid blueviolet;
 }
 
 /* banner styles */
@@ -87,31 +81,23 @@ body {
     margin-top: 100px;
     border-radius: 8px;
     padding-left: 160px;
-    border: 2px solid blueviolet;
 }
 
 /* feature styles */
 
-.feature {
-    border: 2px solid blueviolet;
-}
-
 .feature .grid {
-    border: 2px solid blueviolet;
     display: flex;
     gap: 50px;
     scale: calc(100% - 30%);
 }
 
 .feature .grid .grid-image {
-    border: 2px solid blueviolet;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
 .feature .grid .grid-text {
-    /* border: 2px solid blueviolet; */
     margin-top: 160px;
     gap: 20px;
 }
@@ -127,11 +113,9 @@ body {
     line-height: 53px;
     color: #131313;
     margin-bottom: 0px;
-    /* border: 2px solid blueviolet; */
 }
 
 .feature .grid .grid-text h2 {
-    /* border: 2px solid blueviolet; */
     font-weight: 700;
     font-size: 45px;
     color: #FF900E;
@@ -145,18 +129,12 @@ body {
     color: #727272;
     margin-top: 25px;
     margin-bottom: 30px;
-    /* border: 2px solid blueviolet; */
 }
 
 /* facilities section*/
 
-.facilities {
-    border: 2px solid blueviolet;
-    /* margin-bottom: 100px; */
-}
 
 .facilities main {
-    border: 2px solid blueviolet;
     display: flex;
     gap: 50px;
     scale: calc(100% - 20%);
@@ -249,7 +227,6 @@ body {
 /* facts styles */
 
 .fact {
-    border: 2px solid blueviolet;
     scale: calc(100% - 20%);
 }
 
@@ -321,7 +298,6 @@ body {
 
 /* contact styles */
 .contact {
-    border: 2px solid blueviolet;
     display: flex;
     gap: 100px;
     background: #fff7ed96;
@@ -359,7 +335,6 @@ input {
 /* sponsor styles */
 
 .sponsor-heading {
-    border: 2px solid blueviolet;
     scale: calc(100% - 20%);
     margin-top: 100px;
     margin-bottom: 50px;
@@ -367,7 +342,6 @@ input {
 }
 
 .sponsor-heading h3 {
-    border: 2px solid blueviolet;
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
@@ -376,7 +350,6 @@ input {
 }
 
 .sponsor-heading p {
-    border: 2px solid blueviolet;
     width: 542px;
     font-size: 16px;
     line-height: 26px;
@@ -386,7 +359,6 @@ input {
 }
 
 .sponsor {
-    border: 2px solid blueviolet;
     scale: calc(100% - 20%);
 }
 
@@ -399,7 +371,6 @@ input {
 /* footer styles*/
 
 footer {
-    border: 2px solid blueviolet;
     margin-top: 100px;
     background: #FFF4E7;
     border-radius: 8px;
